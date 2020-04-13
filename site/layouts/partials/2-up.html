@@ -5,15 +5,16 @@
 
     <div class="flex-ns mhn2-ns mb3">
       {{ range .products }}
-      <div class="ph2-ns w-50-ns">
-        <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
-        <p>{{.text}}</p>
+      
+      <div class="ph2-ns w-50-ns pv5 tc white f3 cover" style="background-image: url({{.image}})">
+        <!-- <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px"> -->
+        <h4 class="f4" style="background-color: rgba(91, 140, 90, 0.5);">{{.text}}</h4>
       </div>
       {{ end }}
     </div>
 
-    <div class="tc">
+    <!-- <div class="tc">
       <a href="/products" class="btn raise">See all products</a>
-    </div>
+    </div> -->
   </div>
 </div>
