@@ -14,12 +14,12 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone.
 products:
-  - image: img/green-leaves-privet-ligustrum-5770.jpg
-    text: Siepi
   - image: img/plants-macro-growth-soil-113335.jpg
     text: Piantine da orto
   - image: img/close-up-photo-of-plants-2284170.jpg
     text: Verdura a km 0
+  - image: img/green-leaves-privet-ligustrum-5770.jpg
+    text: Piante da siepe
   - image: img/pink-petaled-flowers-1002725.jpg
     text: Giardinaggio
 values:
