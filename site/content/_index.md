@@ -23,9 +23,10 @@ products:
   - image: img/pink-petaled-flowers-1002725.jpg
     text: Giardinaggio
 values:
-  heading: Our values
-  text: Coffee is an amazing part of human culture but it has a dark side too –
-    one of colonialism and mindless abuse of natural resources and human lives.
-    We want to turn this around and return the coffee trade to the drink’s
-    exhilarating, empowering and unifying nature.
+  heading: Vieni a trovarci
+  text: |-
+    La nostra rivendita si trova in Via Laurentina km 18.300
+
+    Dal lunedì al venerdì: 9:00 - 13:00 / 14:00 - 18:00
+    Sabato: 9:00 - 13:30
 ---
