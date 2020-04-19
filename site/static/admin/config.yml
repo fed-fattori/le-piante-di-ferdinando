@@ -34,26 +34,13 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Prodotti", name: products, widget: list, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Text", name: "text", widget: "text"}]}
-          # - {label: "Values", name: "values", widget: "object", fields: [
-          #     {label: "Heading", name: "heading", widget: string},
-          #     {label: "Text", name: "text", widget: "text"}]}
-      - file: "site/content/contact/_index.md"
-        label: "Contatti"
-        name: "contact"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
-          - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
+          - {label: Titolo Sez. Contatti, name: titolo-contatti, widget: string}
+          - {label: OpenStreet Map URL, name: openstreetmap-url, widget: string}
+          - {label: "Contatti", name: contatti, widget: list, fields: [
+              {label: "Titolo", name: "titolo", widget: "string"},
+              {label: "Linea 1", name: "linea1", widget: "string"},
+              {label: "Linea 2", name: "linea2", widget: "string"},]}
+
       # - file: "site/content/products/_index.md"
       #   label: "Products Page"
       #   name: "products"
