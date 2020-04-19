@@ -34,8 +34,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Prodotti", name: products, widget: list, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: Titolo Sez. Contatti, name: titolo-contatti, widget: string}
-          - {label: OpenStreet Map URL, name: openstreetmap-url, widget: string}
+          - {label: Titolo Sez. Contatti, name: titoloContatti, widget: string}
+          - {label: OpenStreet Map URL, name: openstreetmapUrl, widget: string}
           - {label: "Contatti", name: contatti, widget: list, fields: [
               {label: "Titolo", name: "titolo", widget: "string"},
               {label: "Linea 1", name: "linea1", widget: "string"},
