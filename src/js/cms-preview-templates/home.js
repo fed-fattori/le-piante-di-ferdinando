@@ -35,9 +35,6 @@ export default class PostPreview extends React.Component {
             </div>)}
           </div>
 
-          {/* <div className="tc">
-              <a href="#" className="btn raise">See all products</a>
-            </div> */}
         </div>
       </div>
 
@@ -54,7 +51,7 @@ export default class PostPreview extends React.Component {
             <iframe class="center" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0"
               marginwidth="0"
               src={entry.getIn(["data", "openstreetmapUrl"])}
-              style="border: 1px solid black">
+              >
             </iframe>
           </div>
         </div>
