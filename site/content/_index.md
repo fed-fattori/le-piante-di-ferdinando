@@ -23,7 +23,7 @@ products:
   - image: img/pink-petaled-flowers-1002725.jpg
     text: Giardinaggio
 titoloContatti: Vieni a trovarci
-openstreetmapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=12.499619722366333%2C41.72298741415451%2C12.518910169601442%2C41.730890522580665&amp;layer=mapnik&amp;marker=41.72694299292841%2C12.509264945983887"
+openstreetmapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=12.499619722366333%2C41.72298741415451%2C12.518910169601442%2C41.730890522580665&layer=mapnik&marker=41.72694299292841%2C12.509264945983887"
 contatti:
   - titolo: Indirizzo
     linea1: Via Laurentina km 18.300

@@ -1,17 +1,23 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
-  {{ partial "head" . }}
-  <body class="sans-serif">
+{{ partial "head" . }}
 
-    {{ block "header" . }}{{ partial "nav" . }}{{end}}
+<body class="sans-serif">
 
-    {{ block "main" . }}{{ end }}
+  {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+  {{ block "main" . }}{{ end }}
 
-    {{ $script := .Site.Data.webpack.main }}
-    {{ with $script.js }}
-      <script src="{{ relURL . }}"></script>
-    {{ end }}
-  </body>
+  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
+  {{ $script := .Site.Data.webpack.main }}
+  {{ with $script.js }}
+  <script src="{{ relURL . }}"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  {{ end }}
+</body>
+
 </html>
