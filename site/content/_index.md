@@ -14,7 +14,7 @@ blurb:
   heading: Cos'è che facciamo?
   text: Un'idea dai azienda nata dalle mani di chi ha dedicato la propria vita
     all'agricoltura. Con sapienza, esperienza e impegno portiamo ogni giorno ai
-    nostri clienti i prodotti coltivati sul territorio
+    nostri clienti i prodotti coltivati sul territorio.
 intro:
   heading: Prodotti
   text: a
