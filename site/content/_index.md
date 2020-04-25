@@ -12,7 +12,7 @@ subtitle: Piante, giardinaggio e verdura a km 0
 image: img/person-digging-on-soil-using-garden-shovel-1301856-2.jpg
 blurb:
   heading: Cos'è che facciamo?
-  text: Un'idea dai azienda nata dalle mani di chi ha dedicato la propria vita
+  text: Un'idea di azienda nata dalle mani di chi ha dedicato la propria vita
     all'agricoltura. Con sapienza, esperienza e impegno portiamo ogni giorno ai
     nostri clienti i prodotti coltivati sul territorio.
 intro:
