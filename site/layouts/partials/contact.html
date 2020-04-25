@@ -1,10 +1,11 @@
-<div class="ph3 bg-grey-1 pv5">
+<!-- <div class="ph3 bg-grey-1 pv5">
+
 	<div data-aos="fade-right" class="ph3 mw7 center">
 		<h2 class="f2 b lh-title mb2">{{.titoloContatti}}</h2>
 		{{ range .contatti }}
 		<div class="fl w-100 w-33-ns pa2">
 			<h4 class="f4 b lh-title mb2 primary">
-				<li class="dib ph2 raise">	
+				<li class="dib ph2 raise">
 					<img class="h1" src="img/{{.icona}}.svg">
 				</li>
 				{{.titolo}}
@@ -17,6 +18,33 @@
 		<div class="w-100">
 			<iframe class="center" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0"
 				marginwidth="0" src="{{.openstreetmapUrl}}" style="border: 1px solid black">
+			</iframe>
+		</div>
+	</div>
+</div> -->
+
+
+<div class="ph3 bg-grey-1 pv5 overflow-hidden">
+	<div data-aos="fade-right" class="ph3 mw7 center">
+		<h2 class="f2 b lh-title mb2">{{.titoloContatti}}</h2>
+
+		<div class="fl w-100 w-50-ns pa2">
+			{{ range .contatti }}
+			<div class="fl pa2 db">
+				<h4 class="f4 b lh-title mb2 primary">
+					<li class="dib ph2 raise">
+						<img class="h1" src="img/{{.icona}}.svg">
+					</li>
+					{{.titolo}}
+				</h4>
+				<p class="mb0">{{.linea1}}</p>
+				<p>{{.linea2}}</p>
+			</div>
+			{{ end }}
+		</div>
+		<div class="fl w-100 w-50-ns pa2">
+			<iframe class="center db w-100 h5" frameborder="0" scrolling="no" marginheight="0"
+				marginwidth="0" src="{{.openstreetmapUrl}}" >
 			</iframe>
 		</div>
 	</div>
