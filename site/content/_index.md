@@ -32,10 +32,13 @@ contatti:
   - titolo: Indirizzo
     linea1: Via Laurentina km 18.300
     linea2: 00134 - Roma
+    icona: icons-map-marker-alt-solid
   - titolo: Orari
     linea1: "Lunedì-venerdì: 9:00 - 13:00 / 14:00 - 18:00"
     linea2: "Sabato: 9:00 - 13:30"
+    icona: icons-clock-solid
   - titolo: Contatti
     linea1: "E-mail: ferdinando.fattori@gmail.com"
     linea2: "Telefono: +39 330 900247"
+    icona: icons-paper-plane-solid
 ---
