@@ -34,9 +34,9 @@ contatti:
     linea2: 00134 - Roma
     icona: icons-map-marker-alt-solid
   - titolo: Orari
-    linea1: "Domenica: 8:30 - 13:00 / Lunedì: 15:00 - 18:30"
+    linea1: "Lunedì: 15:00 - 18:30"
     linea2: "Martedì - Sabato: 8:30 - 13:00 / 15:00 - 18:30"
-    linea3: "Lunedì chiuso"
+    linea3: "Domenica: 8:30 - 13:00"
     icona: icons-clock-solid
   - titolo: Contatti
     linea1: "E-mail: ferdinando.fattori@gmail.com"
