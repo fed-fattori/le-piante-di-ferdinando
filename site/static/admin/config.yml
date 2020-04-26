@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Text", name: "text", widget: "text"}]}
           - {label: "Intro", name: intro, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
+              {label: "Text", name: "text", widget: "text", required: false}]}
           - {label: "Prodotti", name: products, widget: list, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Text", name: "text", widget: "text"}]}
@@ -39,8 +39,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Contatti", name: contatti, widget: list, fields: [
               {label: "Titolo", name: "titolo", widget: "string"},
               {label: "Linea 1", name: "linea1", widget: "string"},
-              {label: "Linea 2", name: "linea2", widget: "string"},
-              {label: "Linea 3", name: "linea3", widget: "string"},
+              {label: "Linea 2", name: "linea2", widget: "string", required: false},
+              {label: "Linea 3", name: "linea3", widget: "string", required: false},
              {label: "Icona", name: "icona", widget: "string"},
               ]}
 
