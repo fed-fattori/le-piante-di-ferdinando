@@ -36,6 +36,7 @@ contatti:
   - titolo: Orari
     linea1: "Domenica: 8:30 - 13:00 / Lunedì: 15:00 - 18:30"
     linea2: "Martedì - Sabato: 8:30 - 13:00 / 15:00 - 18:30"
+    linea3: "Lunedì chiuso"
     icona: icons-clock-solid
   - titolo: Contatti
     linea1: "E-mail: ferdinando.fattori@gmail.com"

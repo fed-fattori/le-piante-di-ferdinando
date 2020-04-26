@@ -40,7 +40,8 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Titolo", name: "titolo", widget: "string"},
               {label: "Linea 1", name: "linea1", widget: "string"},
               {label: "Linea 2", name: "linea2", widget: "string"},
-              {label: "Icona", name: "icona", widget: "string"},
+              {label: "Linea 3", name: "linea3", widget: "string"},
+             {label: "Icona", name: "icona", widget: "string"},
               ]}
 
       # - file: "site/content/products/_index.md"
