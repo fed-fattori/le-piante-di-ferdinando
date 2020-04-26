@@ -39,7 +39,7 @@ contatti:
     linea3: "Domenica: 8:30 - 13:00"
     icona: icons-clock-solid
   - titolo: Contatti
-    linea1: "E-mail: ferdinando.fattori@gmail.com"
+    linea1: "E-mail: info@ortolaurentino.it"
     linea2: "Telefono: +39 330 900247"
     icona: icons-paper-plane-solid
 ---
